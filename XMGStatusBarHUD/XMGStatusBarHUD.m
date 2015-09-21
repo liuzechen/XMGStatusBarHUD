@@ -11,11 +11,15 @@
 @implementation XMGStatusBarHUD
 
 static UIWindow *window_;
+
 static NSTimer *timer_;
+
 /** HUD控件的高度 */
 static CGFloat const XMGWindowH = 20;
+
 /** HUD控件的动画持续时间（出现\隐藏） */
 static CGFloat const XMGAnimationDuration = 0.25;
+
 /** HUD控件默认会停留多长时间 */
 static CGFloat const XMGHUDStayDuration = 1.5;
 
