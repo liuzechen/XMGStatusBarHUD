@@ -35,4 +35,11 @@
     [XMGStatusBarHUD showText:@"随便显示的文字！！！！"];
 }
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    // 不要删除这个方法
+}
+
 @end
